@@ -1,0 +1,5 @@
+version = "0.1.0"
+description = "ctypes OpenSSL bindings"
+archive(byte) = "openssl.cma"
+archive(native) = "openssl.cmxa"
+exists_if = "openssl.cma"
